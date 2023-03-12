@@ -133,6 +133,7 @@ section {
   padding: 1.5rem 2rem;
   font-size: 1.7rem;
   color: var(--primary-colour);
+  color: var(--secondary-colour);
 }
 
 .header .navbar a:hover {
