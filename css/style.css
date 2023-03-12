@@ -129,10 +129,14 @@ section {
 }
 
 .header .navbar a {
-    display: inline-block;
-    padding: 1.5rem 2rem;
-    font-size: 1.7rem;
-    color: #fff;
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  font-size: 1.7rem;
+  color: var(--primary-colour);
+}
+
+.header .navbar a:hover {
+  background: #3adeff;
 }
 
 #menu-btn {
@@ -427,7 +431,7 @@ section {
 
 .pricing .plan .list {
   padding: 1rem 0;
- color: var(--secondary-colour);
+  color: var(--secondary-colour);
 }
 
 .pricing .plan .list p {
@@ -729,8 +733,8 @@ section {
   width: 4.5rem;
   line-height: 4.5rem;
   font-size: 1.7rem;
-  color:var(--secondary-colour);
-  background:  var(--primary-colour);
+  color: var(--secondary-colour);
+  background: var(--primary-colour);
   border-radius: 50%;
   margin-right: .5rem;
   text-align: center;
@@ -751,7 +755,7 @@ section {
 }
 
 .credit {
-  font-weight: bold ;
+  font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
   padding: 2rem;
@@ -811,7 +815,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: #000;
+    /* background: #000; */
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
@@ -822,6 +826,8 @@ section {
   }
 
   .header .navbar a {
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
     display: block;
     font-size: 2rem;
   }
