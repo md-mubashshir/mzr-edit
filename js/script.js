@@ -67,6 +67,11 @@ var swiper = new Swiper(".blogs-slider", {
     },
 });
 
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-theme");
+  }
+
 
 // var nav = document.querySelector('header'); // Identify target
 
