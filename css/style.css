@@ -129,11 +129,11 @@ section {
 }
 
 .header .navbar a {
-    background-color: var(--secondary-colour);
-    color: var(--primary-colour);
-    display: block;
-    font-size: 2rem;
-  }
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+}
 
 #menu-btn {
   font-size: 3rem;
