@@ -33,7 +33,27 @@
             <a href="#pricing">Promotions</a>
             <a href="#trainers">Our Editors</a>
             <a href="#contact">Contact</a>
+
+            <!-- drk mode  -->
+
         </nav>
+
+
+        <!-- drk mode -->
+
+
+
+        <div>
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label id="label" for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class='fas fa-sun'></i>
+                <div id="balls" class='ball'>
+            </label>
+        </div>
+
+
+        <!-- drk mode -->
 
     </header>
 
@@ -71,7 +91,11 @@
                 <div class="content">
                     <img src="images/lr-logo-removebg-preview.png" alt="">
                     <h3>Light Room</h3>
-                    <p>Lightroom offers a wide range of editing tools that allow users to adjust exposure, contrast, color balance, and other aspects of their photos. It also includes features such as noise reduction, lens correction, and sharpening to help enhance image quality. Additionally, Lightroom allows users to create and apply presets, which are pre-defined editing settings that can be applied to multiple photos for a consistent look.</p>
+                    <p>Lightroom offers a wide range of editing tools that allow users to adjust exposure, contrast,
+                        color balance, and other aspects of their photos. It also includes features such as noise
+                        reduction, lens correction, and sharpening to help enhance image quality. Additionally,
+                        Lightroom allows users to create and apply presets, which are pre-defined editing settings that
+                        can be applied to multiple photos for a consistent look.</p>
                 </div>
             </div>
 
@@ -79,7 +103,9 @@
                 <div class="content">
                     <img src="images/ps-logo.png" alt="">
                     <h3>Adobe Photoshop</h3>
-                    <p>Alight Motion is a video editing and motion graphics app that is available for Android and iOS devices. It allows users to create professional-quality animations, motion graphics, visual effects, video editing, and video compositing.</p>
+                    <p>Alight Motion is a video editing and motion graphics app that is available for Android and iOS
+                        devices. It allows users to create professional-quality animations, motion graphics, visual
+                        effects, video editing, and video compositing.</p>
                 </div>
             </div>
 
@@ -87,7 +113,9 @@
                 <div class="content">
                     <img src="images/pixel-logo-1-removebg-preview.png" alt="">
                     <h3>Pixellab</h3>
-                    <p>PixelLab is a text and image editing app that is available for Android and iOS devices. It allows users to create and edit images with text, stickers, and various effects. The app is designed to be user-friendly and accessible to people with little or no design experience.</p>
+                    <p>PixelLab is a text and image editing app that is available for Android and iOS devices. It allows
+                        users to create and edit images with text, stickers, and various effects. The app is designed to
+                        be user-friendly and accessible to people with little or no design experience.</p>
                 </div>
             </div>
 
@@ -101,10 +129,8 @@
     <section class="pricing" id="pricing">
 
         <div class="information">
-            <span>Promotions</span>
+            <h1 class="heading"> <span>Promotions</span> </h1>
             <h3>affordable pricing for your vidios</h3>
-<!--             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam dolore excepturi ea suscipit fugiat cum
-                quae, rerum optio mollitia! Tempora?</p> -->
 
             <div class="plan basic">
                 <h3>basic plan</h3>
@@ -113,8 +139,6 @@
                     <p> <i class="fas fa-check"></i>2 story </p>
                     <p> <i class="fas fa-check"></i>Highlight</p>
                     <p> <i class="fas fa-check"></i>partnership</p>
-                    <!-- <p> <i class="fas fa-check"></i> diet plans </p> -->
-                    <!-- <p> <i class="fas fa-check"></i> personal training </p> -->
                 </div>
             </div>
 
@@ -169,15 +193,6 @@
 
         <div class="box-container">
 
-            <!-- <div class="box" id="timing">
-                <h3>opening hours</h3>
-                <p> monday : <i> 6:00am - 10:30pm </i> </p>
-                <p> tuesday : <i> closed </i> </p>
-                <p> wednesday : <i> 6:00am - 10:30pm </i> </p>
-                <p> friday : <i> 6:00am - 10:30pm </i> </p>
-                <p> saturday : <i> 6:00am - 10:30pm </i> </p>
-                <p> sunday : <i> 6:00am - 10:30pm </i> </p>
-            </div> -->
 
             <div class="box" id="contact">
                 <h3>contact us</h3>
@@ -204,6 +219,12 @@
 
     <!-- footer section ends -->
 
+    <script>
+        var icon = document.getElementById("label");
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
